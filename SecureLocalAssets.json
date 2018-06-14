@@ -1,0 +1,59 @@
+{
+  "PSCredential": [],
+  "Connection": [
+    {
+      "ValueFields": {
+        "SubscriptionName": "Microsoft Azure Enterprise",
+        "SubscriptionId": "da36ca27-ddd5-492a-b888-6529bbffab15",
+        "CertificateAssetName": "AzureClassicRunAsCertificate"
+      },
+      "ConnectionType": "AzureClassicCertificate",
+      "Name": "AzureClassicRunAsConnection",
+      "LastModified": "2018-05-31 09:59:54Z"
+    },
+    {
+      "ValueFields": {
+        "ApplicationId": "296f40e9-cfc2-45ae-aeb3-9fe96e908d8b",
+        "TenantId": "58af3eba-510e-4544-8cfd-85f5e0206382",
+        "CertificateThumbprint": "5B20F4340BF5AED6C5AC4CFABEBE73CDB02B374E",
+        "SubscriptionId": "da36ca27-ddd5-492a-b888-6529bbffab15"
+      },
+      "ConnectionType": "AzureServicePrincipal",
+      "Name": "AzureRunAsConnection",
+      "LastModified": "2018-05-31 10:00:17Z"
+    }
+  ],
+  "Variable": [],
+  "Certificate": [
+    {
+      "ValueFields": null,
+      "Thumbprint": "DEDEF362F5ABCC63E90707F9A9FF45D1CEA10F01",
+      "CertPath": null,
+      "Password": null,
+      "Exportable": false,
+      "Encrypted": true,
+      "Name": "AzureClassicRunAsCertificate",
+      "LastModified": "2018-05-31 09:59:53Z"
+    },
+    {
+      "ValueFields": null,
+      "Thumbprint": "5B20F4340BF5AED6C5AC4CFABEBE73CDB02B374E",
+      "CertPath": null,
+      "Password": null,
+      "Exportable": true,
+      "Encrypted": true,
+      "Name": "RunAsims-automationAF-JP3FLH2",
+      "LastModified": "2018-05-31 10:22:01Z"
+    },
+    {
+      "ValueFields": null,
+      "Thumbprint": "5B20F4340BF5AED6C5AC4CFABEBE73CDB02B374E",
+      "CertPath": null,
+      "Password": null,
+      "Exportable": true,
+      "Encrypted": true,
+      "Name": "AzureRunAsCertificate",
+      "LastModified": "2018-05-31 10:00:16Z"
+    }
+  ]
+}
